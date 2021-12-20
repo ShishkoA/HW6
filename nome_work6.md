@@ -50,8 +50,8 @@ ssh remotehost curl http://172.31.45.237
 ```
 1.9 (*) Open webserver webpage in browser of your Host machine of VirtualBox (Windows, or Mac, or whatever else you use). You may need to setup port forwarding in settings of VirtualBox.
 
-Task 2:
-# Following tasks should be executed on your localhost as you will need root privileges
+# Task 2:
+## Following tasks should be executed on your localhost as you will need root privileges
 2.1. Imagine your localhost has been relocated to Havana. Change the time zone on the localhost to Havana and verify the time zone has been changed properly (may be multiple commands).
 ```bash
 [linux@localhost ~]$ timedatectl list-timezones | grep Havana
